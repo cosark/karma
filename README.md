@@ -292,6 +292,15 @@ This will build a Docker image locally from sources.
 `/health` endpoint can be used for health check probes, it always responds with
 `200 OK` code and `Pong` response body.
 
+## One-click deploy
+
+[![Deploy on RepoCloud](https://d16t0pc4846x52.cloudfront.net/deploylobe.svg)](https://repocloud.io/details/Karma/)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/karma-alertmanager-dashboard)
+
+- RepoCloud: One-click template, no other instructions required.
+- Railway: Set `ALERTMANAGER_URI` while deploying, as described on the
+  [template page](https://railway.com/deploy/karma-alertmanager-dashboard).
+
 ## Configuration
 
 Please see [CONFIGURATION](/docs/CONFIGURATION.md) for full list of available
